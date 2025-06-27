@@ -9,17 +9,23 @@
 * Basics of Neural Networks
 * Learning to build a neural network from scratch using numpy
 * Topics covered :
-  - Neurons and Layers: Implemented single neurons and layered networks using NumPy; understood how inputs are transformed through weights and biases.
-  - Forward Pass: Calculated outputs layer by layer using matrix operations; understood basic flow of data through the network.
-  - Activation Functions: Studied and implemented ReLU, Sigmoid, and Softmax to introduce non-linearity and interpret outputs as probabilities.
-  - Loss Functions: Studied about the Categorical Cross-Entropy for classification tasks and MSE for regression tasks.
-  - Derivatives and Chain Rule: Calculated gradients using calculus, applying the chain rule across layers.
-  - Backpropagation: Implemented backpropagation to compute weight updates based on the error gradient flowing backward.
-  - Gradient Descent: Learned the optimization process for updating weights using gradients to minimize the loss function.
-  - Optimizers: Explored Momentum, RMSProp, and Adam optimizers to enhance and accelerate convergence.
-  - Regularization: Implemented L1 and L2 regularization techniques to reduce overfitting by penalizing large weights.
+  - Neurons and Layers: Built foundational understanding of artificial neurons—computational units that take weighted inputs, apply a bias, and pass the result through an activation function. Constructed fully connected layers by stacking multiple neurons.
+
+  - Forward Pass: Implemented the process of computing the output of a neural network by propagating inputs through the layers. Used matrix operations to efficiently handle multiple inputs at once.
+
+  - Activation Functions: Explored the role of activation functions in introducing non-linearity into the network. Implemented and tested common functions like ReLU (rectified linear unit), Sigmoid and Softmax to better understand their mathematical behavior and use cases (ReLU - mainly for introducing non-linearity, sigmoid and SoftMAX - for estimating probabilities for classification taske).
+
+  - Loss Functions: Studied how neural networks quantify prediction error using loss functions. Implemented Categorical Cross-Entropy for classification tasks.
+
+  - Derivatives and Chain Rule: Developed an understanding of how gradients are computed using the chain rule from calculus, enabling the propagation of error backward through the network.
+
+  - Backpropagation: Programmed backpropagation from scratch, computing partial derivatives for each layer to update weights and biases based on the loss gradient.
  
-Note: Description and explainations of individual topics have been included in the python notebook.
+  - Gradient Descent: Learned how networks improve predictions by minimizing loss through optimization. Implemented basic gradient descent to update weights using calculated gradients.
+
+  - Optimizers: Introduced advanced optimization techniques like Momentum, RMSProp and Adam to accelerate and stabilize training by adapting learning rates and smoothing updates.
+
+  - Regularization: Studied about L1 (Lasso) and L2 (Ridge) regularization techniques to prevent overfitting by penalizing large weights during training.
 
 * Resource : Neural Networks from Scratch in Python by Harrison Kinsley & Daniel Kukieła (covered till chapter 14)
 
@@ -28,16 +34,16 @@ Note: Description and explainations of individual topics have been included in t
 ## Week 4 onwards
 * PyTorch
 * Topics covered :
-  - Introduction to PyTorch: Began working with the PyTorch framework for building and training neural networks more efficiently.
+  - Introduction to PyTorch: Transitioned from manual NumPy implementations to PyTorch, a deep learning framework that simplifies model development through pre-defined classes and methods, as well as GPU acceleration.
 
-  - Autograd: Learned PyTorch’s automatic differentiation system to compute gradients dynamically during backpropagation.
+  - Autograd: Explored PyTorch’s autograd system, which automatically computes gradients during the backward pass, eliminating the need for manual derivative calculations.
 
-  - nn.Module: Explored how to define custom neural network architectures by subclassing nn.Module.
+  - nn.Module: Learned to define custom neural networks by subclassing torch.nn.Module, organizing model architecture and parameters in a structured and reusable way.
 
-  - Neural Network Pipeline: Implemented the full training pipeline including model definition, loss computation, optimizer usage, and training loop.
-
-  - Dataset and DataLoader: Learned how to implement abd utilize PyTorch’s utilities to load and batch data efficiently for training.
+  - Dataset and DataLoader: Used torch.utils.data.Dataset and DataLoader to manage large datasets efficiently—automating batching, shuffling, and parallel loading during training.
  
-Note: Description and explainations of individual topics have been included in the python noteboos.
+  - Neural Network Pipeline: Built a complete training workflow involving model instantiation, forward pass after segregating the training data into batches, loss computation (using predefined loss functions like CrossEntropyLoss), optimizer setup (e.g., Adam, SGD), and backward propagation using loss.backward() and optimizer.step().
 
 * Resource : PyTorch playlist by CampusX
+
+Note: Description and explainations of individual topics have been included in the python noteboos.
