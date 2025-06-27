@@ -46,4 +46,4 @@
 
 * Resource : PyTorch playlist by CampusX
 
-Note: Description and explainations of individual topics have been included in the python noteboos.
+Note: Description and explainations of individual topics have been included in the python notebooks.
