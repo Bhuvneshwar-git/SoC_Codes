@@ -13,4 +13,5 @@
 
 ## Week 4 onwards
 * PyTorch
+* Topics covered : AutoGrad feature of PyTorch, the NN module, neural network pipeline 
 * Resource : PyTorch playlist by CampusX
