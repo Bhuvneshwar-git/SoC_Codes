@@ -9,7 +9,7 @@
 * Basics of Neural Networks
 * Learning to build a neural network from scratch using numpy
 * Topics covered : creating a neuron and layers of neurons, forward pass, activation functions (ReLU, sigmoid and SoftMAX), loss calculation (Categorical Cross Entropy and MSE), Gradient Descent, Derivatives and       Chain Rule, backpropagation, optimizers (momentum, RMSProp and Adam), regularization (L1 and L2)
-* Resource : Neural Networks from Scratch in Python by Harrison Kinsley & Daniel Kukieła
+* Resource : Neural Networks from Scratch in Python by Harrison Kinsley & Daniel Kukieła (covered till chapter 14)
 
 ## Week 4 onwards
 * PyTorch
