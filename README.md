@@ -44,6 +44,12 @@
  
   - Neural Network Pipeline: Built a complete training workflow involving model instantiation, forward pass after segregating the training data into batches, loss computation (using predefined loss functions like CrossEntropyLoss), optimizer setup (e.g., Adam, SGD), and backward propagation using loss.backward() and optimizer.step().
 
-* Resource : PyTorch playlist by CampusX
+* Resource : [PyTorch playlist by CampusX](https://www.youtube.com/watch?v=mDsFsnw3SK4&list=PLKnIA16_Rmvboy8bmDCjwNHgTaYH2puK7&index=2)
+
+## Week 5 (in progress)
+* PINNs
+* Basic introduction to Physics Informed Neural Networks
+* Learned the fundamental concept of Physics-Informed Neural Networks (PINNs), a powerful approach that integrates physical laws (typically expressed as differential equations) directly into the neural network training process.
+* Resource: [Lecture by Benjamin Moseley](https://www.youtube.com/watch?v=G_hIppUWcsc&t=1781s )
 
 Note: Description and explainations of individual topics have been included in the python notebooks.
