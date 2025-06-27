@@ -1,4 +1,4 @@
-# SoC_Codes
+# SoC Codes (Physics Informed Neural Networks)
 
 ## Week 1
 * Basics of Python
