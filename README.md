@@ -53,7 +53,7 @@
 * Forward Problem: Predict the solution of a physical system (e.g., temperature, displacement) given known parameters and initial/boundary conditions.\
 What PINNs do: Learn a function that satisfies the governing DE and conditions using a neural network.
 * Inverse Problem: Infer unknown parameters or functions in a DE (e.g., source term, diffusivity) from observed data.\
-What PINNs do: Simultaneously learn the solution and unknown parameters by minimizing PDE residuals and fitting data.
+What PINNs do: Simultaneously learn the solution and unknown parameters by minimizing DE residuals and fitting data.
 * Resource: [Lecture by Benjamin Moseley](https://www.youtube.com/watch?v=G_hIppUWcsc&t=1781s )
 
 Note: Description and explainations of individual topics have been included in the python notebooks.
