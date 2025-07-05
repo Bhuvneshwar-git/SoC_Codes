@@ -46,7 +46,7 @@
 
 * Resource : [PyTorch playlist by CampusX](https://www.youtube.com/watch?v=mDsFsnw3SK4&list=PLKnIA16_Rmvboy8bmDCjwNHgTaYH2puK7&index=2)
 
-## Week 5 (in progress)
+## Week 5
 * PINNs
 * Basic introduction to Physics Informed Neural Networks
 * Learned the fundamental concept of Physics-Informed Neural Networks (PINNs), a powerful approach that integrates physical laws (typically expressed as differential equations) directly into the neural network training process.
