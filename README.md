@@ -56,4 +56,14 @@ What PINNs do: Learn a function that satisfies the governing DE and conditions u
 What PINNs do: Simultaneously learn the solution and unknown parameters by minimizing DE residuals and fitting data.
 * Resource: [Lecture by Benjamin Moseley](https://www.youtube.com/watch?v=G_hIppUWcsc&t=1781s )
 
+## Week 6
+* PINNs using Tensorflow (another powerful deep learning framework)
+* Built Physics-Informed Neural Networks using TensorFlow to solve differential equations. Learned to construct neural network architectures with tf.keras, define physics-based loss functions incorporating PDE residuals, and train models using automatic differentiation (tf.GradientTape). Implemented forward problems and experimented with inverse problems, gaining hands-on experience in leveraging TensorFlow’s GPU acceleration for PINNs.
+* Resource : [YouTube playlist by elastropy](https://www.youtube.com/watch?v=pq3aAWU6kBQ&list=PLM7DTyYjZGuLmg3f6j40fEF18jyQmYsC2) (only Tensorflow part)
+
+## Weeks 7 and 8
+* Practising problems and working on the final implementation
+* Solved certain classical Physics problems using PINNs(namely 1D and 2D heat equations)
+* Worked on a PINN that could solve the 2D Navier-Stokes Equation as the final implementation project.
+
 Note: Description and explainations of individual topics have been included in the python notebooks.
