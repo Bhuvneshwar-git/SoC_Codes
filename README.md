@@ -63,7 +63,7 @@ What PINNs do: Simultaneously learn the solution and unknown parameters by minim
 
 ## Weeks 7 and 8
 * Practising problems and working on the final implementation
-* Solved certain classical Physics problems using PINNs(namely 1D and 2D heat equations)
+* Solved certain classical Physics problems using PINNs (namely 1D and 2D heat equations).
 * Worked on a PINN that could solve the 2D Navier-Stokes Equation as the final implementation project.
 
 Note: Description and explainations of individual topics have been included in the python notebooks.
